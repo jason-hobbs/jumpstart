@@ -67,7 +67,7 @@ def add_users
   route "root to: 'home#index'"
 
   # Devise notices are installed via Bootstrap
-  generate "devise:views:bootstrapped"
+  # generate "devise:views:bootstrapped"
 
   # Create Devise User
   generate :devise, "User",
